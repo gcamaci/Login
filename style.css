@@ -7,9 +7,7 @@
 
 body{
     margin: 0;
-    box-sizing: border-box;
-    
-    
+    box-sizing: border-box;  
 }
 .main-wrapper{
     display: flex;
@@ -79,19 +77,14 @@ img{
     box-shadow: 0px 20px 10px -15px #65e9ef;
     font-family: 'Source Sans Pro', sans-serif;
     color: #69e9ef;
-    
-    
 }
 #form{
     display: flex;
     flex-wrap: wrap;
     gap: 15px;
     padding:10px;
-    
-    
-    
-    
 }
+
 label{
     display: flex;
     flex-direction: column;
@@ -144,24 +137,40 @@ input{
         flex-direction: column;
         justify-content: none;
         width: 100vw;
-        height: 100vh;
+        height: auto;
+        background-image: url(/Images/splash.png);
+        background-size: cover;
+        background-position: top;
     }
     .splash{
-        width: 100%;
-        height: auto;
+        width: 100vw;
+        height: 30vh;
+        
+
+    }
+    .banner{
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
     .content{
         height: auto;
         width: 100%;
         background-color: rgba(18,18,18, 0);
         
+        
     }
-    .text{
-        display: none;
+    .normal{
+        margin: 0;
+        padding: 0;
     }
+   
     img{
-        width: 200px;
+        width: 100px;
         height: 150px;
     }
-
+    .text{
+        height: auto;
+    }
 }
+
