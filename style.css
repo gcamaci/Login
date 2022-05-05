@@ -1,0 +1,59 @@
+body{
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+.main-wrapper{
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+}
+
+.splash{
+    background-color: yellow;
+    width: 40vw;
+    min-width: 400px;
+    background-image: url(/Images/splash.png);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    
+}
+.content{
+    width: 60vw;
+}
+
+.headline{
+    padding-left: 10px;
+    font-size: 2.5rem;
+    
+    
+    
+}
+
+.text{
+    padding: 10px;
+    font-size: 1.5rem;
+}
+.form-container{
+    position: relative;
+    
+}
+#form{
+    
+    display: flex;
+    flex-wrap: wrap;
+    
+    gap: 15px;
+    padding:10px
+    
+}
+label{
+    display: flex;
+    flex-direction: column;
+    width: 49%;
+    min-width: 300px;
+}
+input{
+    height: 45px;
+}
